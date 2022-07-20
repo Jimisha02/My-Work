@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Tenor;
+    /* box-sizing: border-box; */
+    
+}
+@font-face {
+    font-family: Tenor;
+    src: url(TenorSans-Regular.ttf);
+}
+.container{
+    width: 1200px;
+    border: 1px brown solid;
+    margin-left:38px ;
+    background-image: url(./pexels-jana-kukebal-6496462.jpg);
+}
+h1{
+
+    text-align: center;
+}
+table, tr, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: rgb(145, 5, 5);
+    color:white;
+    padding: 5px;   
+}
+
+.questions{
+    margin: 30px;
+    background-color:none;
+}
+ 
+.q6ans{
+    background-color: rgb(255, 255, 255);
+    color: rgb(126, 11, 134);;
+}
+.q7a1 img{
+    background-repeat:repeat; 
+    background-image: url(images.jpg);
+      
+}
+.q7a2 img{
+    background-image: url(images.jpg);
+    background-repeat:no-repeat;  
+
+}
+.box{
+    width:300px;
+    margin:2rem auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 0, 0);
+}
+
+.layout{
+    background-color: whitesmoke;
+}
+.lay-tr{
+    display: flex;
+}
+.pd1{
+    margin: 10px;
+    background-color: rgb(213, 213, 213);
+    border: none;
+    
+}
+.thumbnail{
+    background-color: black;
+    color: white;
+    /* width: 200px; */
+    padding: 80px;
+    text-align: center;
+    background-image: url(./pexels-photo-531880.jpeg);
+}
+.imf{
+    margin: 20px;
+
+}
+.btn{
+    margin-top: 15px;
+    /*margin-left: 108px;*/
+}
