@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Personal Data Form</h3>
+    <form action="serverpage.php" target="_blank" enctype="multipart/form-data" method="post">
+        <table border="2">
+            <tr>
+                <td>
+                    <label for="lastname"> <b>Last Name:</b></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        First Name*
+                    </b>
+                </td>
+                <td align="right">
+                    <b>
+                         Middle name*
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                </td>
+                <td>
+                    <input type="text" name="middlename" id="middlename" placeholder="Middle Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Email*</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td><b>Resume*</b></td>
+            </tr>
+                <td>
+                    <input type="file" name="resume" id="resumeid">
+                </td>
+                
+     <!--JOB PRT-->
+            
+         <tr></tr>     
+            <tr>
+                <td>
+                    <lable for=""><b>Position Applied For</b></lable><br>
+                    <select name="select" id="Select">
+                    <option value="">Administration</option>
+                    <option value="">Manager</option>
+                    <option value="">General Manager</option>
+                    <option value="">Human Resources</option>
+                </td>
+                
+                <td align="right">
+                    <label for=""><b>Hourly Wage*</b></label><br>
+                    <input type="number" name="currency" id="currency-field">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><b>Date you can Start</b></label><br>
+                    <input type="date">
+                </td>
+               
+                <td align="right">
+                    <label for=""><b>Weekly Hours*</b></label><br>
+                    <input type="number" name="number" id="number">
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+               
+                <td align="right">
+                    <input type="submit" name="submit" value="Submit" id="submit">
+                </td>
+            </tr>
+            
+
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <p><h4 align="center">UNIVERSITY REGISTRATION FORM</h4></p>   
+<form action="serverpage.php" target="_blank" enctype="multipart/form-data" method="post" >
+    <table align="center">
+        <tr>
+            <td align="right">University:</td>
+            <td><input size="50" type="text" value="University Name" name="username" id="username" ></td>
+        </tr>
+
+        <tr>
+            <td align="right">Institute:</td>
+            <td><input size="50" type="text" value="Institute Name" name="username" id="username" ></td>
+        </tr>
+<!--Branch  -->
+        <tr>
+            
+            <td align="right"> <label for="">Branch:</td>
+            <td>
+                <select name="Select" id="select">
+                    <option value="">Select Branch</option>
+                    <option value="">Ahmedabad</option>
+                    <option value="">Delhi</option>
+                    <option value="">Surat</option>
+                    <option value="">Mumbai</option>
+                    <option value="">chennai</option>
+                    <option value="">Chandighar</option>
+                    <option value="">Jaipur </option>
+                </select>
+
+            </td>
+        </tr>
+
+    </tr>
+
+<!-- Degree -->
+    <tr>
+        <td align="right"> <label for="">Degree:</td>
+        <td>
+            <select name="Select" id="select">
+                <option value="">Select Branch</option>
+                <option value="">BCom</option>
+                <option value="">BSc</option>
+                <option value="">BA</option>
+                <option value="">BArch</option>
+                <option value="">BDes.</option>
+                <option value="">BTech</option>
+                <option value="">BE </option>
+            </select>
+
+    
+            <input type="radio" value="Pursuing" name="" id="">Pursuing
+            <input type="radio" value="Completed" name="" id="">Completed
+
+        </td>
+    </tr>
+    <tr>
+        <td align="right"><label for="Quantity">Average CPI:</label> </td>
+        <td>
+           <input type="number" name="Quantity" id="Quantity" min="1" max="10">Upto
+           <input type="number" name="Quantity" id="Quantity" min="1" max="10">Semesters
+        </td>
+    </tr>
+
+    <tr>
+        <td align="right"><label for="Quantity">Experience:</label> </td>
+        <td>
+           <input type="number" name="Quantity" id="Quantity" min="1" max="100">Years
+           <input type="number" name="Quantity" id="Quantity" min="1" max="12">Months
+        </td>
+    </tr>
+
+    <tr>
+        <td align="right"> <label for="url">URL:</label></td>
+         <td><input type="url" name="" id=""></td>
+    </tr>
+    <tr>
+        <td align="centre"><input type="submit" name="save" value="Save" id="save"></td>
+    </tr>
+    </table>
+</form>
+
+</body>
+</html>
