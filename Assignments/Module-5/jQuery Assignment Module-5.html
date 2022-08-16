@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Assignment Module-5</title>
+    <style>
+        body{
+            font-family: Square721 Cn BT;
+            background-color: rgb(247, 252, 214);
+        }
+        .header {
+            text-align: center;
+        }
+
+        span {
+            font-weight: bolder;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header">
+            <h1>
+                Module(JQuery Basic, Effects & Advanced)-5
+            </h1>
+        </div>
+    </header>
+
+    <!-- main -->
+    <Main>
+        <div class="container">
+            <div class="que1">
+                <h2>
+                    1) What is jQuery?
+                </h2>
+                <blockquote>
+                    <p>
+                        jQuery is a lightweight JavaScript library that greatly simplifies JavaScript programming.In short its refered as "write less do more".<br>
+                        It is designed to simplify the client-side scripting of HTML.<br>
+                        The main purpose of jQuery is to provide an easy way to use JavaScript on your website to make it more interactive and attractive. It is also used to add animation.
+                    </p>
+                </blockquote>
+            </div>
+            <div class="que2">
+                <h2>
+                    2)How to apply CSS using jQuery, How to Add Class and Remove Class in jQuery, jQuery Animation?
+                </h2>
+                <blockquote>
+                    <p>
+                        <b>Applying CSS using jQuery:</b><br>
+                        The .css() method is a convenient way to use and apply CSS using jQuery.It sets or returns one or more style properties for the selected elements.<br>
+                        <u>Syntax:</u> $(selector).css(property)<br>
+                        Example: $("p").css("background-color","green");
+                        <br>
+                        <br>
+
+                        <b>Add Class and Remove Class in jQuery:</b><br>
+                        <br>
+                        The <b>addClass()</b> method adds one or more class names to the selected elements.
+                        This method does not remove existing class attributes, it only adds one or more class names to the class attribute.(with using spaces when adding multiple classes)<br>
+                        <u>Syntax:</u> $(selector).addClass(classname,function(index,current/oldclass))<br>
+                        <br>
+                        The jQuery <b>remove()</b> method is used to remove the selected elements out of the DOM.<br>It removes the selected element itself, as well as everything inside it (including all texts and child nodes). This method also removes the data and the events of the selected elements.<br>
+                        <u>Syntax:</u> $(selector).remove(selector) <br> 
+                        <br>
+                        The jQuery <b>animate()</b> method provides you a way to create custom animations.<br>
+                        This method changes an element from one state to another with CSS styles. The CSS property value is changed gradually, to create an animated effect.<br>
+                        <u>Syntax:</u>$(selector).animate({params}, speed, callback); <br>
+                        <i style="font: 15px comfortaa; font-style: italic;">(Here, params parameter defines the CSS properties to be animated.<br>
+                        The speed parameter is optional and specifies the duration of the effect. It can be set as "slow" , "fast" or milliseconds.<br>
+                        The callback parameter is also optional and it is a function which is executed after the animation completes.)</i><br>
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="que3">
+                <h2>
+                    3) How to create slider with animation?
+                </h2>
+                <blockquote>
+                    <p>
+                        With jQuery we can create a sliding effect on elements.<br>
+                        jQuery has the following slide methods:
+
+                        <li>slideDown()</li>
+                        <p>The jQuery slideDown() method is used to slide down an element.<br>
+                        <u>Syntax:</u>$(selector).slideDown(speed,callback)
+                        </p>
+                        <br>
+                        <li>slideUp()</li>
+                        <p>The jQuery slideup() method is used to slide up an element.<br>
+                            <u>Syntax:</u>$(selector).slideUp(speed,callback)
+                        </p>
+                        <li>slideToggle()</li>
+                        <p>The jQuery slideToggle() method toggles between the slideDown() and slideUp() methods.<br>
+                            If the elements have been slid down, slideToggle() will slide them up.<br>
+                            If the elements have been slid up, slideToggle() will slide them down.<br>
+                            <u>Syntax:</u>$(selector).slideToggle(speed,callback);
+                        </p>
+                    </p>
+                </blockquote>
+            </div>    
+        </div>
+    </Main>
+</body>
+
+</html>
