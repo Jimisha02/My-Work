@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Site</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/43dcc20e7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/company.js"></script>
+  </head>
+  <body>
+    <header>
+        <div id="header-wrapper">
+          <div class=" row">
+              <div class="container-lg container-md container-sm">
+                  <nav>
+                      <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+                      <ul class="nav-list tog-nav">
+                        <li>
+                          <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="about.html">About</a>
+                        </li>
+                        <li>
+                          <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                </nav>
+              </div>
+          </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- section 1 -->
+      <section id="section1">
+        <div class="container-lg container-md container-sm pt-3">
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="logo">
+                <img src="images/mycompLOGO.png" alt="logo" />
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <div class="row">
+               
+                  <div class="search-box">
+                    <input
+                      type="text"
+                      class="search-input"
+                      placeholder="Search.."
+                    />
+
+                    <button class="search-button">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>    
+          <div class="row mt-3">  
+            <ul class="nav nav-tabs tab-btn-pane justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item btn-pane" role="presentation">
+                <button class="nav-link  tab-btn-pane active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Web Layout</button>
+              </li>
+              <li class="nav-item btn-pane" role="presentation">
+                <button class="nav-link tab-btn-pane" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Logo</button>
+              </li>
+              <li class="nav-item btn-pane" role="presentation">
+                <button class="nav-link tab-btn-pane" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Banner</button>
+              </li>
+              <li class="nav-item btn-pane" role="presentation">
+                <button class="nav-link tab-btn-pane" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Flyer</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="row mt-4 ms-1 me-1">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="img-card">
+                      <img src="images/logo tab.jpg" alt="training">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt at quam ut aspernatur? Aut accusamus ratione id saepe. Ratione architecto quidem et a perferendis expedita hic repellendus laudantium nemo.
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta placeat saepe tempore, aliquid expedita fuga ipsam necessitatibus veniam asperiores molestias quae, voluptates a labore velit aliquam nihil quis culpa dolorem.
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, mollitia quae asperiores, dignissimos quibusdam et earum deleniti, tempora odit eveniet incidunt. Harum at quod obcaecati distinctio similique voluptas id ad.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="row mt-4  ms-1 me-1">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="img-card">
+                      <img src="images/logo tab.jpg" alt="training">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt at quam ut aspernatur? Aut accusamus ratione id saepe. Ratione architecto quidem et a perferendis expedita hic repellendus laudantium nemo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="row mt-4  ms-1 me-1">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="img-card">
+                      <img src="images/logo tab.jpg" alt="training">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt at quam ut aspernatur? Aut accusamus ratione id saepe. Ratione architecto quidem et a perferendis expedita hic repellendus laudantium nemo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                <div class="row mt-4  ms-1 me-1">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="img-card">
+                      <img src="images/logo tab.jpg" alt="training">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt at quam ut aspernatur? Aut accusamus ratione id saepe. Ratione architecto quidem et a perferendis expedita hic repellendus laudantium nemo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        
+      </section>
+
+      <section id="section-2">
+        <div class="container-fluid pt-5">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <h3><i>Welcome to Our Site...</i></h3>
+              <br>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolores provident molestias animi. Obcaecati quo voluptate harum! Aliquid magni laborum, totam eveniet ab beatae voluptate vel, aut animi quaerat mollitia!</p>
+              <br>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, velit praesentium quia at porro optio nemo! Ratione quasi consequuntur quis provident nobis esse velit assumenda cumque numquam ut, reiciendis consectetur.</p>
+              <br>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque id ullam quis fugiat vitae assumenda laudantium corporis architecto debitis, veniam repudiandae quas itaque repellendus ipsa rem et delectus a ea!</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nemo, inventore iste molestias autem voluptas quae tenetur deserunt dolorum voluptate odit, omnis velit quibusdam nisi sapiente quidem, aspernatur voluptatem sed.</p>
+              <br>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="aside-card mt-1">
+               <a href="index.html"><img src="images/aside.png" alt="aside"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container-lg container-md container-sm">
+        <div class="row justify-content-center text-center pt-3">
+          <div class="col-lg-1 col-md-1 col-sm-1 foot-flex">Pages:</div>
+          <div class="col-lg-1 col-md-1 col-sm-1 first-menu"><a href="index.html">Home</a></div>
+          <div class="col-lg-1 col-md-1 col-sm-1 first-menu"><a href="index.html">About</a></div>
+          <div class="col-lg-1 col-md-1 col-sm-1 first-menu"><a href="index.html">Contact</a></div>
+        </div>
+        <div class="row justify-content-center text-center fw-light pt-2">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p>Our Services: WebLayouts,Banners,Flyers,Logo and designing services</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center fw-light">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p>Copyright 2022 by Lorem Epsum, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
